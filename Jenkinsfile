@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ('SCM for Java Code pipelinetest') {
+        stage ('SCM for Java Code test') {
             steps{
                 git changelog: false, url: 'https://github.com/jabedhasan21/java-hello-world-with-maven'
                 echo 'Polling to Developers SCM'
